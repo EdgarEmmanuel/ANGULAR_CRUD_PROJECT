@@ -1,0 +1,10 @@
+<h1>AUCHAN</h1>
+
+<div class="left">
+    <app-form-course (submit)="addCourse($event)"></app-form-course>
+</div>
+
+ 
+<div class="right">
+    <app-table-course [allCourses]="COURSES"></app-table-course>
+</div>

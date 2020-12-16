@@ -1,0 +1,9 @@
+<form #form="ngForm" (submit)="add(form)" class="container">
+    <div class="form-group">
+        <input type="text" name="client" class="form-control" [(ngModel)]="course.client" placeholder="nom client ..."> <br>
+        <input type="text" name="article" placeholder="article ..." [(ngModel)]="course.article" class="form-control" ><br>
+        <input type="number" name="prix" placeholder="prix..." [(ngModel)]="course.prix"  class="form-control" > <br>
+        <button class="btn btn-primary">ENREGISTRER</button>
+    </div>
+</form>
+ 
